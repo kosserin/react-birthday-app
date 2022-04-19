@@ -1,0 +1,86 @@
+.add-birthday__backdrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+
+.add-birthday {
+    position: fixed;
+    padding: 2.5rem;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    z-index: 3;
+    width: 500px;
+    max-width: 90vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .2);
+    transform-origin: center center;
+}
+
+.add-birthday .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px 0;
+}
+
+.add-birthday .form-group label {
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.add-birthday .form-group input {
+    border: none;
+    border-bottom: 2px solid #051937;
+    border-left: 2px solid #051937;
+    height: 2rem;
+    padding: 0 .25rem;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+
+
+.add-birthday .form-actions{
+    display: flex;
+    align-items: center;
+    flex-basis: 0;
+    margin-top: 20px;
+    gap: 1rem;
+}
+
+.add-birthday .form-actions button {
+    flex-grow: 1;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.add-birthday .form-actions .close-button {
+    font-weight: 400;
+    color: gray;
+    background-color: #fff;
+    transition: 250ms ease-out;
+}
+
+.add-birthday .form-actions .close-button:hover {
+    background-color: transparent;
+}
+
+.add-birthday .form-actions .add-button {
+    font-weight: 400;
+    color: #eaeaea;
+    background-color: #051937;
+    transition: 250ms ease-out;
+}
+
+.add-birthday .form-actions .add-button:hover {
+    background-color: #232b68;
+}

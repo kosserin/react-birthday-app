@@ -1,0 +1,47 @@
+.birthdays {
+    padding: 2rem;
+    background-color: #eaeaea;
+    border-radius: 15px;
+    margin: 2rem 0;
+    max-width: 90vw;
+    width: 400px;
+}
+
+.birthdays .actions{
+    display: flex;
+    align-items: center;
+    flex-basis: 0;
+    margin-top: 20px;
+    gap: 1rem;
+}
+
+.birthdays .actions button {
+    flex-grow: 1;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.birthdays .actions .clear-button {
+    font-weight: 400;
+    color: gray;
+    background-color: #fff;
+    transition: 250ms ease-out;
+}
+
+.birthdays .actions .clear-button:hover {
+    background-color: transparent;
+}
+
+.birthdays .actions .add-button {
+    font-weight: 400;
+    color: #eaeaea;
+    background-color: #051937;
+    transition: 250ms ease-out;
+}
+
+.birthdays .actions .add-button:hover {
+    background-color: #232b68;
+}

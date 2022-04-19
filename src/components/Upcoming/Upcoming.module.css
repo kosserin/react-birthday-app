@@ -1,0 +1,50 @@
+.upcoming-birthdays {
+    margin-top: 20px;
+    opacity: .9;
+}
+
+.upcoming-birthdays > h3 {
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.upcoming-birthdays > p {
+    font-size: .875rem;
+}
+
+.upcoming-birthdays > p span {
+    font-weight: 600;
+}
+
+.upcoming-birthdays ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.upcoming-birthdays ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.upcoming-birthdays img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.upcoming-birthdays ul li h3 {
+    color: #051937;
+    font-weight: 600;
+    font-size: .875rem;
+}
+
+.upcoming-birthdays ul li h4 {
+    color: #5e7ca9;
+    font-weight: 600;
+    font-size: .75rem;
+}
